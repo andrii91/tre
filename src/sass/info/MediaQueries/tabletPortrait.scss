@@ -1,0 +1,15 @@
+@import '../../mq';
+
+@media #{$tabletPortrait} {
+    @import '../mobile';
+  	& {
+      .solutions, .footer, .footer_bottom {
+        .container {
+          max-width: 100%;
+        }
+      }
+      .social {
+        margin-bottom: 0;
+      }
+	}
+}
